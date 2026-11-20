@@ -1,0 +1,12 @@
+{
+  "name": "seo-operator",
+  "description": "SEO for a site you own, run as a loop: per-site memory, Search Console and crawl vitals, every action ranked by clicks per operator-hour, a ledger that checks weeks later whether each change worked, plus technical probes, title and description lint, query research, llms.txt and markdown mirrors, AI citation tracking and a single-page audit.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Artem Mavrin",
+    "url": "https://github.com/mavrin-xv"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mavrin-xv/seo-operator",
+  "repository": "https://github.com/mavrin-xv/seo-operator"
+}

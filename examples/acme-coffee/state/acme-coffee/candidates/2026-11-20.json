@@ -1,0 +1,316 @@
+{
+ "site": "acme-coffee",
+ "date": "2026-11-20",
+ "candidates": [
+  {
+   "kind": "title-meta",
+   "lane": "ctr",
+   "target": "/blog/how-to-make-cold-brew",
+   "score": 219.2,
+   "clicks_at_stake": 156.6,
+   "effort_h": 0.25,
+   "money_page": false,
+   "why": "CTR 1.2% vs 3.1% expected at position 7.2",
+   "evidence": {
+    "impressions": 8300,
+    "clicks": 99,
+    "position": 7.2
+   }
+  },
+  {
+   "kind": "link-fix",
+   "lane": "links",
+   "target": "/wholesale",
+   "score": 100.0,
+   "clicks_at_stake": 10,
+   "effort_h": 0.15,
+   "money_page": true,
+   "why": "internal links point at a redirect",
+   "evidence": {}
+  },
+  {
+   "kind": "title-meta",
+   "lane": "ctr",
+   "target": "/subscriptions",
+   "score": 75.2,
+   "clicks_at_stake": 35.8,
+   "effort_h": 0.25,
+   "money_page": true,
+   "why": "CTR 1.5% vs 3.9% expected at position 6.1",
+   "evidence": {
+    "impressions": 1500,
+    "clicks": 23,
+    "position": 6.1
+   }
+  },
+  {
+   "kind": "title-meta",
+   "lane": "ctr",
+   "target": "/blog/espresso-vs-drip",
+   "score": 41.7,
+   "clicks_at_stake": 29.8,
+   "effort_h": 0.25,
+   "money_page": false,
+   "why": "CTR 0.6% vs 1.7% expected at position 11.5",
+   "evidence": {
+    "impressions": 2700,
+    "clicks": 15,
+    "position": 11.5
+   }
+  },
+  {
+   "kind": "title-meta",
+   "lane": "ctr",
+   "target": "/locations/downtown",
+   "score": 41.2,
+   "clicks_at_stake": 29.4,
+   "effort_h": 0.25,
+   "money_page": false,
+   "why": "CTR 6.6% vs 9.7% expected at position 3.1",
+   "evidence": {
+    "impressions": 950,
+    "clicks": 63,
+    "position": 3.1
+   }
+  },
+  {
+   "kind": "title-meta",
+   "lane": "ctr",
+   "target": "/wholesale",
+   "score": 25.2,
+   "clicks_at_stake": 12,
+   "effort_h": 0.25,
+   "money_page": true,
+   "why": "no meta description",
+   "evidence": {}
+  },
+  {
+   "kind": "title-meta",
+   "lane": "ctr",
+   "target": "/blog/best-beans-for-french-press",
+   "score": 22.1,
+   "clicks_at_stake": 15.8,
+   "effort_h": 0.25,
+   "money_page": false,
+   "why": "CTR 0.5% vs 1.3% expected at position 13.8",
+   "evidence": {
+    "impressions": 2000,
+    "clicks": 10,
+    "position": 13.8
+   }
+  },
+  {
+   "kind": "title-meta",
+   "lane": "ctr",
+   "target": "/gift-cards",
+   "score": 20.4,
+   "clicks_at_stake": 14.6,
+   "effort_h": 0.25,
+   "money_page": false,
+   "why": "CTR 5.9% vs 10.5% expected at position 2.9",
+   "evidence": {
+    "impressions": 320,
+    "clicks": 19,
+    "position": 2.9
+   }
+  },
+  {
+   "kind": "content",
+   "lane": "content",
+   "target": "query: how to make cold brew",
+   "score": 19.2,
+   "clicks_at_stake": 192.3,
+   "effort_h": 3.0,
+   "money_page": false,
+   "why": "query at position 7.6 with 4400 impressions; top-5 would earn ~192 more clicks",
+   "evidence": {
+    "impressions": 4400,
+    "clicks": 41,
+    "position": 7.6
+   }
+  },
+  {
+   "kind": "title-meta",
+   "lane": "ctr",
+   "target": "/blog/old-promo",
+   "score": 16.8,
+   "clicks_at_stake": 12,
+   "effort_h": 0.25,
+   "money_page": false,
+   "why": "no meta description",
+   "evidence": {}
+  },
+  {
+   "kind": "internal-link",
+   "lane": "links",
+   "target": "/blog/old-promo",
+   "score": 7.5,
+   "clicks_at_stake": 15,
+   "effort_h": 0.5,
+   "money_page": false,
+   "why": "no internal page links here",
+   "evidence": {}
+  },
+  {
+   "kind": "content",
+   "lane": "content",
+   "target": "query: cold brew near me",
+   "score": 7.3,
+   "clicks_at_stake": 73.1,
+   "effort_h": 3.0,
+   "money_page": false,
+   "why": "query at position 6.7 with 1850 impressions; top-5 would earn ~73 more clicks",
+   "evidence": {
+    "impressions": 1850,
+    "clicks": 25,
+    "position": 6.7
+   }
+  },
+  {
+   "kind": "content",
+   "lane": "content",
+   "target": "query: cold brew ratio",
+   "score": 7.3,
+   "clicks_at_stake": 73.2,
+   "effort_h": 3.0,
+   "money_page": false,
+   "why": "query at position 9.1 with 1550 impressions; top-5 would earn ~73 more clicks",
+   "evidence": {
+    "impressions": 1550,
+    "clicks": 9,
+    "position": 9.1
+   }
+  },
+  {
+   "kind": "schema",
+   "lane": "aeo",
+   "target": "/menu/cold-brew",
+   "score": 6.8,
+   "clicks_at_stake": 18,
+   "effort_h": 0.4,
+   "money_page": true,
+   "why": "no JSON-LD on a page with 4050 impressions",
+   "evidence": {}
+  },
+  {
+   "kind": "schema",
+   "lane": "aeo",
+   "target": "/subscriptions",
+   "score": 6.8,
+   "clicks_at_stake": 18,
+   "effort_h": 0.4,
+   "money_page": true,
+   "why": "no JSON-LD on a page with 1500 impressions",
+   "evidence": {}
+  },
+  {
+   "kind": "schema",
+   "lane": "aeo",
+   "target": "/wholesale",
+   "score": 6.8,
+   "clicks_at_stake": 18,
+   "effort_h": 0.4,
+   "money_page": true,
+   "why": "no JSON-LD on a page with 640 impressions",
+   "evidence": {}
+  },
+  {
+   "kind": "content",
+   "lane": "content",
+   "target": "query: espresso vs drip",
+   "score": 6.6,
+   "clicks_at_stake": 65.6,
+   "effort_h": 3.0,
+   "money_page": false,
+   "why": "query at position 12.0 with 1350 impressions; top-5 would earn ~66 more clicks",
+   "evidence": {
+    "impressions": 1350,
+    "clicks": 6,
+    "position": 12.0
+   }
+  },
+  {
+   "kind": "content",
+   "lane": "content",
+   "target": "query: best beans for french press",
+   "score": 5.8,
+   "clicks_at_stake": 58.0,
+   "effort_h": 3.0,
+   "money_page": false,
+   "why": "query at position 14.8 with 1150 impressions; top-5 would earn ~58 more clicks",
+   "evidence": {
+    "impressions": 1150,
+    "clicks": 3,
+    "position": 14.8
+   }
+  },
+  {
+   "kind": "schema",
+   "lane": "aeo",
+   "target": "/blog/how-to-make-cold-brew",
+   "score": 4.5,
+   "clicks_at_stake": 18,
+   "effort_h": 0.4,
+   "money_page": false,
+   "why": "no JSON-LD on a page with 8300 impressions",
+   "evidence": {}
+  },
+  {
+   "kind": "schema",
+   "lane": "aeo",
+   "target": "/gift-cards",
+   "score": 4.5,
+   "clicks_at_stake": 18,
+   "effort_h": 0.4,
+   "money_page": false,
+   "why": "no JSON-LD on a page with 320 impressions",
+   "evidence": {}
+  },
+  {
+   "kind": "content",
+   "lane": "content",
+   "target": "query: coffee subscription",
+   "score": 4.4,
+   "clicks_at_stake": 44.4,
+   "effort_h": 3.0,
+   "money_page": false,
+   "why": "query at position 8.6 with 950 impressions; top-5 would earn ~44 more clicks",
+   "evidence": {
+    "impressions": 950,
+    "clicks": 6,
+    "position": 8.6
+   }
+  },
+  {
+   "kind": "content",
+   "lane": "content",
+   "target": "query: wholesale coffee beans",
+   "score": 2.1,
+   "clicks_at_stake": 21.3,
+   "effort_h": 3.0,
+   "money_page": false,
+   "why": "query at position 10.5 with 420 impressions; top-5 would earn ~21 more clicks",
+   "evidence": {
+    "impressions": 420,
+    "clicks": 1,
+    "position": 10.5
+   }
+  }
+ ],
+ "skipped": [
+  {
+   "kind": "title-meta",
+   "target": "/",
+   "reason": "in ctr_skip_paths (brand searches set a home page's CTR)"
+  },
+  {
+   "kind": "title-meta",
+   "target": "/menu/cold-brew",
+   "reason": "cooldown"
+  }
+ ],
+ "inputs": {
+  "gsc": true,
+  "health_snapshots": 2
+ }
+}

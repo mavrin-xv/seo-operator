@@ -1,0 +1,14 @@
+board for acme-coffee on 2026-10-22 (22 candidates, 2 skipped)
+#    score   kind          lane    target / why
+1    219.2   title-meta    ctr     /blog/how-to-make-cold-brew
+                           CTR 1.2% vs 3.1% expected at position 7.2
+2    100.0   link-fix      links   /wholesale  [money page]
+                           internal links point at a redirect
+3    75.2    title-meta    ctr     /subscriptions  [money page]
+                           CTR 1.5% vs 3.9% expected at position 6.1
+4    41.7    title-meta    ctr     /blog/espresso-vs-drip
+                           CTR 0.6% vs 1.7% expected at position 11.5
+5    41.2    title-meta    ctr     /locations/downtown
+                           CTR 6.6% vs 9.7% expected at position 3.1
+skipped title-meta /: in ctr_skip_paths (brand searches set a home page's CTR)
+skipped title-meta /menu/cold-brew: cooldown

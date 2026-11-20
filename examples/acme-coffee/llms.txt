@@ -1,0 +1,19 @@
+# Acme Coffee
+
+> Small-batch coffee roaster: cold brew, beans by subscription, and wholesale for cafes.
+
+Every page below also has a markdown twin at the same URL plus index.md.
+
+## Products and services
+
+- [Coffee Subscriptions](https://acme-coffee.com/subscriptions/): Whole beans every 2 or 4 weeks, pause or skip any time.
+- [Cold Brew](https://acme-coffee.com/menu/cold-brew/): Cold brew steeped 18 hours, served downtown or shipped in 1-litre bottles.
+- [Wholesale](https://acme-coffee.com/wholesale/): Beans and cold brew kegs for cafes and offices, with a sample box.
+
+## Gift cards
+
+- [Gift Cards](https://acme-coffee.com/gift-cards/): Digital gift cards for the shop and the subscription.
+
+## Optional
+
+- [How to Make Cold Brew at Home](https://acme-coffee.com/blog/how-to-make-cold-brew/): Ratio, grind and steep time, and how to fix a bitter batch.

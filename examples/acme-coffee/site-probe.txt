@@ -1,0 +1,34 @@
+FAIL (1)
+  internal_links_to_redirects  1 page(s), first: http://127.0.0.1:8799/wholesale
+Checked, fine (31)
+  soft_404                     made-up URL answers 404
+  robots_groups                Googlebot (search): allowed via * group
+  robots_groups                Bingbot (search): allowed via * group
+  robots_groups                OAI-SearchBot (search): allowed via * group
+  robots_groups                Claude-SearchBot (search): allowed via * group
+  robots_groups                PerplexityBot (search): allowed via * group
+  robots_groups                ChatGPT-User (user-fetch): allowed via * group
+  robots_groups                Claude-User (user-fetch): allowed via * group
+  robots_groups                Perplexity-User (user-fetch): allowed via * group
+  robots_groups                GPTBot (training): blocked via own group
+  robots_groups                ClaudeBot (training): allowed via * group
+  robots_groups                Google-Extended (training): allowed via * group
+  robots_groups                CCBot (training): allowed via * group
+  ai_blocked_at_edge           Googlebot gets 200 (browser 200)
+  ai_blocked_at_edge           Bingbot gets 200 (browser 200)
+  ai_blocked_at_edge           OAI-SearchBot gets 200 (browser 200)
+  ai_blocked_at_edge           Claude-SearchBot gets 200 (browser 200)
+  ai_blocked_at_edge           PerplexityBot gets 200 (browser 200)
+  ai_blocked_at_edge           ChatGPT-User gets 200 (browser 200)
+  ai_blocked_at_edge           Claude-User gets 200 (browser 200)
+  ai_blocked_at_edge           Perplexity-User gets 200 (browser 200)
+  ai_blocked_at_edge           GPTBot gets 200 (browser 200)
+  ai_blocked_at_edge           ClaudeBot gets 200 (browser 200)
+  ai_blocked_at_edge           CCBot gets 200 (browser 200)
+  js_rendered_content          76 visible words in the raw HTML of the home page
+  redirect_chain               http://127.0.0.1:8799/wholesale [301] -> http://127.0.0.1:8799/wholesale/ [200]
+  noindex_in_sitemap           none found in 7 crawled pages
+  sitemap_non_200              none found in 7 crawled pages
+  canonical_to_bad_target      none found in 7 crawled pages
+  redirect_chains              none found in 7 crawled pages
+  js_rendered_content          none found in 7 crawled pages

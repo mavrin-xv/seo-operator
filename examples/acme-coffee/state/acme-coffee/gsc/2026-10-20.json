@@ -1,0 +1,287 @@
+{
+ "site": "acme-coffee",
+ "source": "csv",
+ "window": {
+  "start": "2026-09-23",
+  "end": "2026-10-20",
+  "days": 28
+ },
+ "totals": {
+  "clicks": 672,
+  "impressions": 25010,
+  "ctr": 0.0269,
+  "position": 6.9,
+  "note": "sum of exported page rows; Search Console totals can be higher"
+ },
+ "pages": [
+  {
+   "key": "/blog/how-to-make-cold-brew",
+   "clicks": 96,
+   "impressions": 8100,
+   "ctr": 0.0119,
+   "position": 7.4
+  },
+  {
+   "key": "/",
+   "clicks": 410,
+   "impressions": 5200,
+   "ctr": 0.0788,
+   "position": 2.1
+  },
+  {
+   "key": "/menu/cold-brew",
+   "clicks": 38,
+   "impressions": 3900,
+   "ctr": 0.0097,
+   "position": 5.8
+  },
+  {
+   "key": "/blog/espresso-vs-drip",
+   "clicks": 14,
+   "impressions": 2600,
+   "ctr": 0.0054,
+   "position": 11.9
+  },
+  {
+   "key": "/blog/best-beans-for-french-press",
+   "clicks": 9,
+   "impressions": 1900,
+   "ctr": 0.0047,
+   "position": 14.2
+  },
+  {
+   "key": "/subscriptions",
+   "clicks": 22,
+   "impressions": 1450,
+   "ctr": 0.0152,
+   "position": 6.3
+  },
+  {
+   "key": "/locations/downtown",
+   "clicks": 61,
+   "impressions": 900,
+   "ctr": 0.0678,
+   "position": 3.2
+  },
+  {
+   "key": "/wholesale",
+   "clicks": 4,
+   "impressions": 620,
+   "ctr": 0.0065,
+   "position": 9.1
+  },
+  {
+   "key": "/gift-cards",
+   "clicks": 18,
+   "impressions": 300,
+   "ctr": 0.06,
+   "position": 2.9
+  },
+  {
+   "key": "/blog/old-promo",
+   "clicks": 0,
+   "impressions": 40,
+   "ctr": 0.0,
+   "position": 38.0
+  }
+ ],
+ "queries": [
+  {
+   "key": "how to make cold brew",
+   "clicks": 40,
+   "impressions": 4300,
+   "ctr": 0.0093,
+   "position": 7.8
+  },
+  {
+   "key": "acme coffee",
+   "clicks": 350,
+   "impressions": 2100,
+   "ctr": 0.1667,
+   "position": 1.2
+  },
+  {
+   "key": "cold brew near me",
+   "clicks": 12,
+   "impressions": 1800,
+   "ctr": 0.0067,
+   "position": 6.9
+  },
+  {
+   "key": "cold brew ratio",
+   "clicks": 8,
+   "impressions": 1500,
+   "ctr": 0.0053,
+   "position": 9.4
+  },
+  {
+   "key": "espresso vs drip",
+   "clicks": 5,
+   "impressions": 1300,
+   "ctr": 0.0038,
+   "position": 12.4
+  },
+  {
+   "key": "best beans for french press",
+   "clicks": 3,
+   "impressions": 1100,
+   "ctr": 0.0027,
+   "position": 15.1
+  },
+  {
+   "key": "coffee subscription",
+   "clicks": 6,
+   "impressions": 900,
+   "ctr": 0.0067,
+   "position": 8.8
+  },
+  {
+   "key": "downtown coffee shop",
+   "clicks": 30,
+   "impressions": 500,
+   "ctr": 0.06,
+   "position": 3.1
+  },
+  {
+   "key": "wholesale coffee beans",
+   "clicks": 1,
+   "impressions": 400,
+   "ctr": 0.0025,
+   "position": 10.2
+  }
+ ],
+ "ctr_gap": [
+  {
+   "key": "/",
+   "clicks": 410,
+   "impressions": 5200,
+   "ctr": 0.0788,
+   "position": 2.1,
+   "expected_ctr": 0.145,
+   "clicks_left": 344.0
+  },
+  {
+   "key": "/blog/how-to-make-cold-brew",
+   "clicks": 96,
+   "impressions": 8100,
+   "ctr": 0.0119,
+   "position": 7.4,
+   "expected_ctr": 0.0296,
+   "clicks_left": 143.8
+  },
+  {
+   "key": "/menu/cold-brew",
+   "clicks": 38,
+   "impressions": 3900,
+   "ctr": 0.0097,
+   "position": 5.8,
+   "expected_ctr": 0.0426,
+   "clicks_left": 128.1
+  },
+  {
+   "key": "/subscriptions",
+   "clicks": 22,
+   "impressions": 1450,
+   "ctr": 0.0152,
+   "position": 6.3,
+   "expected_ctr": 0.0376,
+   "clicks_left": 32.5
+  },
+  {
+   "key": "/blog/espresso-vs-drip",
+   "clicks": 14,
+   "impressions": 2600,
+   "ctr": 0.0054,
+   "position": 11.9,
+   "expected_ctr": 0.016,
+   "clicks_left": 27.5
+  },
+  {
+   "key": "/locations/downtown",
+   "clicks": 61,
+   "impressions": 900,
+   "ctr": 0.0678,
+   "position": 3.2,
+   "expected_ctr": 0.0946,
+   "clicks_left": 24.1
+  },
+  {
+   "key": "/blog/best-beans-for-french-press",
+   "clicks": 9,
+   "impressions": 1900,
+   "ctr": 0.0047,
+   "position": 14.2,
+   "expected_ctr": 0.0123,
+   "clicks_left": 14.3
+  },
+  {
+   "key": "/gift-cards",
+   "clicks": 18,
+   "impressions": 300,
+   "ctr": 0.06,
+   "position": 2.9,
+   "expected_ctr": 0.105,
+   "clicks_left": 13.5
+  },
+  {
+   "key": "/wholesale",
+   "clicks": 4,
+   "impressions": 620,
+   "ctr": 0.0065,
+   "position": 9.1,
+   "expected_ctr": 0.0217,
+   "clicks_left": 9.5
+  }
+ ],
+ "strike": [
+  {
+   "key": "how to make cold brew",
+   "clicks": 40,
+   "impressions": 4300,
+   "ctr": 0.0093,
+   "position": 7.8
+  },
+  {
+   "key": "cold brew near me",
+   "clicks": 12,
+   "impressions": 1800,
+   "ctr": 0.0067,
+   "position": 6.9
+  },
+  {
+   "key": "cold brew ratio",
+   "clicks": 8,
+   "impressions": 1500,
+   "ctr": 0.0053,
+   "position": 9.4
+  },
+  {
+   "key": "espresso vs drip",
+   "clicks": 5,
+   "impressions": 1300,
+   "ctr": 0.0038,
+   "position": 12.4
+  },
+  {
+   "key": "best beans for french press",
+   "clicks": 3,
+   "impressions": 1100,
+   "ctr": 0.0027,
+   "position": 15.1
+  },
+  {
+   "key": "coffee subscription",
+   "clicks": 6,
+   "impressions": 900,
+   "ctr": 0.0067,
+   "position": 8.8
+  },
+  {
+   "key": "wholesale coffee beans",
+   "clicks": 1,
+   "impressions": 400,
+   "ctr": 0.0025,
+   "position": 10.2
+  }
+ ]
+}

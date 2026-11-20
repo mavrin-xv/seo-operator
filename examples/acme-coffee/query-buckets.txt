@@ -1,0 +1,34 @@
+bucket         queries      impr  clicks    CTR   pos(w)  share
+brand                1      2150     365  17.0%      1.2    15%
+near-me              1      1850      25   1.4%      6.7    13%
+town+service         1       520      31   6.0%      3.0     4%
+informational        4      8450      59   0.7%      9.6    59%
+service              2      1370       7   0.5%      9.2    10%
+
+brand: top by impressions
+    2150 impr   365 clicks  pos   1.2  acme coffee
+
+near-me: top by impressions
+    1850 impr    25 clicks  pos   6.7  cold brew near me
+
+town+service: top by impressions
+     520 impr    31 clicks  pos   3.0  downtown coffee shop
+
+informational: top by impressions
+    4400 impr    41 clicks  pos   7.6  how to make cold brew
+    1550 impr     9 clicks  pos   9.1  cold brew ratio
+    1350 impr     6 clicks  pos  12.0  espresso vs drip
+    1150 impr     3 clicks  pos  14.8  best beans for french press
+
+service: top by impressions
+     950 impr     6 clicks  pos   8.6  coffee subscription
+     420 impr     1 clicks  pos  10.5  wholesale coffee beans
+
+striking distance (positions 4-20, 50+ impressions, brand excluded): 7
+  pos   7.6    4400 impr  [informational]  how to make cold brew
+  pos   6.7    1850 impr  [near-me]  cold brew near me
+  pos   9.1    1550 impr  [informational]  cold brew ratio
+  pos  12.0    1350 impr  [informational]  espresso vs drip
+  pos  14.8    1150 impr  [informational]  best beans for french press
+  pos   8.6     950 impr  [service]  coffee subscription
+  pos  10.5     420 impr  [service]  wholesale coffee beans

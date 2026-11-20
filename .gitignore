@@ -1,0 +1,6 @@
+.seo/
+__pycache__/
+*.pyc
+.env
+*.token
+.DS_Store

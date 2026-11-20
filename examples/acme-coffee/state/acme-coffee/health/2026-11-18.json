@@ -1,0 +1,308 @@
+{
+ "site": "acme-coffee",
+ "start": "http://127.0.0.1:8799/",
+ "crawled": "2026-11-20T02:59:44",
+ "complete": true,
+ "cap": 50,
+ "counts": {
+  "broken": 0,
+  "redirects": 1,
+  "redirect_chains": 0,
+  "internal_links_to_redirects": 1,
+  "orphans": 1,
+  "deep": 0,
+  "slow": 0,
+  "heavy": 0,
+  "no_description": 2,
+  "bad_h1": 0,
+  "no_schema": 6,
+  "not_in_sitemap": 2,
+  "sitemap_non_200": 0,
+  "noindex_in_sitemap": 0,
+  "canonical_to_bad_target": 0,
+  "thin_or_js_rendered": 0,
+  "not_checked": 0,
+  "pages": 7,
+  "ok": 7,
+  "sitemap_urls": 5
+ },
+ "speed": {
+  "ttfb_p50": 14,
+  "ttfb_p90": 49,
+  "html_kb_p50": 0.7,
+  "html_kb_p90": 0.9
+ },
+ "robots": {
+  "found": true,
+  "status": 200,
+  "sitemap_declared": true,
+  "cdn_managed_block": false,
+  "bots": {
+   "Googlebot": {
+    "job": "search",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "Bingbot": {
+    "job": "search",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "OAI-SearchBot": {
+    "job": "search",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "Claude-SearchBot": {
+    "job": "search",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "PerplexityBot": {
+    "job": "search",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "ChatGPT-User": {
+    "job": "user-fetch",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "Claude-User": {
+    "job": "user-fetch",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "Perplexity-User": {
+    "job": "user-fetch",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "GPTBot": {
+    "job": "training",
+    "state": "BLOCKED",
+    "via": "own group"
+   },
+   "ClaudeBot": {
+    "job": "training",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "Google-Extended": {
+    "job": "training",
+    "state": "allowed",
+    "via": "* group"
+   },
+   "CCBot": {
+    "job": "training",
+    "state": "allowed",
+    "via": "* group"
+   }
+  }
+ },
+ "soft_404": {
+  "url": "http://127.0.0.1:8799/vlwlaimufxqk-page-that-should-not-exist",
+  "status": 404,
+  "soft_404": false
+ },
+ "issues": {
+  "broken": [],
+  "redirects": [
+   {
+    "url": "http://127.0.0.1:8799/wholesale",
+    "to": "http://127.0.0.1:8799/wholesale/",
+    "hops": 1
+   }
+  ],
+  "redirect_chains": [],
+  "internal_links_to_redirects": [
+   "http://127.0.0.1:8799/wholesale"
+  ],
+  "orphans": [
+   "http://127.0.0.1:8799/blog/old-promo/"
+  ],
+  "deep": [],
+  "slow": [],
+  "heavy": [],
+  "no_description": [
+   "http://127.0.0.1:8799/blog/old-promo/",
+   "http://127.0.0.1:8799/wholesale"
+  ],
+  "bad_h1": [],
+  "no_schema": [
+   "http://127.0.0.1:8799/blog/how-to-make-cold-brew/",
+   "http://127.0.0.1:8799/blog/old-promo/",
+   "http://127.0.0.1:8799/menu/cold-brew/",
+   "http://127.0.0.1:8799/subscriptions/",
+   "http://127.0.0.1:8799/gift-cards/",
+   "http://127.0.0.1:8799/wholesale"
+  ],
+  "not_in_sitemap": [
+   "http://127.0.0.1:8799/gift-cards/",
+   "http://127.0.0.1:8799/wholesale"
+  ],
+  "sitemap_non_200": [],
+  "noindex_in_sitemap": [],
+  "canonical_to_bad_target": [],
+  "thin_or_js_rendered": [],
+  "not_checked": []
+ },
+ "pages": {
+  "/": {
+   "url": "http://127.0.0.1:8799/",
+   "status": 200,
+   "final": "http://127.0.0.1:8799/",
+   "ttfb_ms": 27,
+   "bytes": 946,
+   "hops": 0,
+   "redirected": false,
+   "title": "Acme Coffee | Small-batch roaster",
+   "description": "Small-batch",
+   "canonical": "/",
+   "robots": "",
+   "h1_count": 1,
+   "h1": "Acme Coffee | Small-batch roaster",
+   "h2_count": 0,
+   "schema": [
+    "CafeOrCoffeeShop"
+   ],
+   "words": 76,
+   "internal_links": 6,
+   "depth": 0,
+   "inbound": 6,
+   "in_sitemap": true
+  },
+  "/blog/how-to-make-cold-brew": {
+   "url": "http://127.0.0.1:8799/blog/how-to-make-cold-brew/",
+   "status": 200,
+   "final": "http://127.0.0.1:8799/blog/how-to-make-cold-brew/",
+   "ttfb_ms": 49,
+   "bytes": 829,
+   "hops": 0,
+   "redirected": false,
+   "title": "How to Make Cold Brew at Home",
+   "description": "Ratio,",
+   "canonical": "/blog/how-to-make-cold-brew/",
+   "robots": "",
+   "h1_count": 1,
+   "h1": "How to Make Cold Brew at Home",
+   "h2_count": 2,
+   "schema": [],
+   "words": 77,
+   "internal_links": 4,
+   "depth": 1,
+   "inbound": 6,
+   "in_sitemap": true
+  },
+  "/blog/old-promo": {
+   "url": "http://127.0.0.1:8799/blog/old-promo/",
+   "status": 200,
+   "final": "http://127.0.0.1:8799/blog/old-promo/",
+   "ttfb_ms": 28,
+   "bytes": 675,
+   "hops": 0,
+   "redirected": false,
+   "title": "Old Promo",
+   "description": "",
+   "canonical": "/blog/old-promo/",
+   "robots": "",
+   "h1_count": 1,
+   "h1": "Old Promo",
+   "h2_count": 0,
+   "schema": [],
+   "words": 70,
+   "internal_links": 4,
+   "depth": null,
+   "inbound": 0,
+   "in_sitemap": true
+  },
+  "/gift-cards": {
+   "url": "http://127.0.0.1:8799/gift-cards/",
+   "status": 200,
+   "final": "http://127.0.0.1:8799/gift-cards/",
+   "ttfb_ms": 13,
+   "bytes": 728,
+   "hops": 0,
+   "redirected": false,
+   "title": "Gift Cards",
+   "description": "Acme",
+   "canonical": "/gift-cards/",
+   "robots": "",
+   "h1_count": 1,
+   "h1": "Gift Cards",
+   "h2_count": 0,
+   "schema": [],
+   "words": 70,
+   "internal_links": 4,
+   "depth": 1,
+   "inbound": 1,
+   "in_sitemap": false
+  },
+  "/menu/cold-brew": {
+   "url": "http://127.0.0.1:8799/menu/cold-brew/",
+   "status": 200,
+   "final": "http://127.0.0.1:8799/menu/cold-brew/",
+   "ttfb_ms": 14,
+   "bytes": 827,
+   "hops": 0,
+   "redirected": false,
+   "title": "Cold Brew, Steeped 18 Hours | Acme Coffee",
+   "description": "Cold brew steeped 18 hours, served downtown or shipped in 1-litre bottles.",
+   "canonical": "/menu/cold-brew/",
+   "robots": "",
+   "h1_count": 1,
+   "h1": "Cold Brew",
+   "h2_count": 0,
+   "schema": [],
+   "words": 70,
+   "internal_links": 4,
+   "depth": 1,
+   "inbound": 6,
+   "in_sitemap": true
+  },
+  "/subscriptions": {
+   "url": "http://127.0.0.1:8799/subscriptions/",
+   "status": 200,
+   "final": "http://127.0.0.1:8799/subscriptions/",
+   "ttfb_ms": 3,
+   "bytes": 756,
+   "hops": 0,
+   "redirected": false,
+   "title": "Coffee Subscriptions",
+   "description": "Fresh",
+   "canonical": "/subscriptions/",
+   "robots": "",
+   "h1_count": 1,
+   "h1": "Coffee Subscriptions",
+   "h2_count": 0,
+   "schema": [],
+   "words": 70,
+   "internal_links": 4,
+   "depth": 1,
+   "inbound": 6,
+   "in_sitemap": true
+  },
+  "/wholesale": {
+   "url": "http://127.0.0.1:8799/wholesale",
+   "status": 200,
+   "final": "http://127.0.0.1:8799/wholesale/",
+   "ttfb_ms": 14,
+   "bytes": 670,
+   "hops": 1,
+   "redirected": true,
+   "title": "Wholesale",
+   "description": "",
+   "canonical": "/wholesale/",
+   "robots": "",
+   "h1_count": 1,
+   "h1": "Wholesale",
+   "h2_count": 0,
+   "schema": [],
+   "words": 69,
+   "internal_links": 4,
+   "depth": 1,
+   "inbound": 1,
+   "in_sitemap": false
+  }
+ }
+}

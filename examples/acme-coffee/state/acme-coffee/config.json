@@ -1,0 +1,38 @@
+{
+ "site": "acme-coffee",
+ "domain": "acme-coffee.com",
+ "start_url": "http://127.0.0.1:8799/",
+ "gsc_property": "sc-domain:acme-coffee.com",
+ "hosts": [
+  "acme-coffee.com",
+  "www.acme-coffee.com",
+  "127.0.0.1:8799"
+ ],
+ "brand_terms": [
+  "acme"
+ ],
+ "money_paths": [
+  "/subscriptions",
+  "/wholesale",
+  "/menu"
+ ],
+ "exclude_paths": [
+  "/cart",
+  "/account"
+ ],
+ "thresholds": {
+  "ttfb_ms": 800,
+  "html_kb": 250,
+  "min_impressions": 50,
+  "strike_position": [
+   4,
+   20
+  ],
+  "ctr_max_position": 15,
+  "cooldown_days": 60,
+  "verify_min_days": 21,
+  "prune_days": 90
+ },
+ "effort": {},
+ "recover": {}
+}

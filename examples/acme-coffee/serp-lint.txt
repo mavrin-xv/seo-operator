@@ -1,0 +1,13 @@
+/blog/how-to-make-cold-brew current  [FAIL]  auto 12/30  title 72, desc 0
+    How to Make Cold Brew | Cold Brew Recipe | Cold Brew Guide | Acme Coffee
+    fail: keyword_string
+    warn: title 72 chars, outside 35-65
+    warn: no description
+/blog/how-to-make-cold-brew A  [PASS]  auto 30/30  title 54, desc 125
+    How to Make Cold Brew at Home: Ratio and 18-Hour Steep
+/blog/how-to-make-cold-brew B  [FAIL]  auto 15/30  title 56, desc 110
+    The Best Ultimate Cold Brew Guide for 2026 | Acme Coffee
+    fail: generic_adjectives (best, ultimate)
+    warn: description 110 chars (120-160)
+    warn: primary query not in the title
+    warn: year in the title: keep it only if it is updated every year

@@ -1,0 +1,19 @@
+source       page.md
+title        How to Make Cold Brew at Home (29 chars)
+description  (none)
+words        161   H1s 1   question headings 3   lists 1   tables 0
+links        0 internal, 0 external   JSON-LD: none
+dates        none found
+outline
+  How to Make Cold Brew at Home
+    What ratio of coffee to water should I use?
+    How long should cold brew steep?
+    Why does my cold brew taste bitter?
+first answer under each H2 (40-80 words reads as a quotable answer)
+   48 words  What ratio of coffee to water should I use?  [question]
+   20 words  How long should cold brew steep?  [question]
+   18 words  Why does my cold brew taste bitter?  [question]
+numbers with no source in the same sentence
+  - Most people find cold brew 3 times smoother than hot coffee.
+  - Steep it for 18 hours in the fridge.
+  - Under 12 hours it tastes thin; past 24 hours it turns woody.

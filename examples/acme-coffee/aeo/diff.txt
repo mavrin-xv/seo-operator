@@ -1,0 +1,21 @@
+LOST (1)
+  perplexity  CITED     -> MENTIONED wholesale coffee for cafes downtown
+GAINED (3)
+  chatgpt     ABSENT    -> MENTIONED best cold brew coffee subscription
+  chatgpt     MENTIONED -> CITED     how to make cold brew at home
+  perplexity  ABSENT    -> CITED     how to make cold brew at home
+INDETERMINATE (1)
+  gemini      ERROR     -> ABSENT    best cold brew coffee subscription
+NO CHANGE (4)
+  chatgpt     ABSENT    -> ABSENT    wholesale coffee for cafes downtown  new names: Contoso Beans
+  gemini      ABSENT    -> ABSENT    how to make cold brew at home
+  gemini      ABSENT    -> ABSENT    wholesale coffee for cafes downtown
+  perplexity  MENTIONED -> MENTIONED best cold brew coffee subscription
+
+share of model (CITED + 0.5 x MENTIONED over answers observed)
+  chatgpt       17% (3) ->   50% (3)
+  gemini         0% (2) ->    0% (3)
+  perplexity    50% (3) ->   67% (3)
+  all           25% (8) ->   39% (9)
+
+note: 1 pair(s) not compared because a round had no usable answer

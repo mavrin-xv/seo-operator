@@ -1,0 +1,10 @@
+engine,prompt,status,cited_url,competitors
+chatgpt,best cold brew coffee subscription,MENTIONED,,Northwind Roasters
+chatgpt,how to make cold brew at home,CITED,https://acme-coffee.com/blog/how-to-make-cold-brew/,
+chatgpt,wholesale coffee for cafes downtown,ABSENT,,Northwind Roasters;Contoso Beans
+perplexity,best cold brew coffee subscription,MENTIONED,,Northwind Roasters
+perplexity,how to make cold brew at home,CITED,https://acme-coffee.com/blog/how-to-make-cold-brew/,
+perplexity,wholesale coffee for cafes downtown,MENTIONED,,
+gemini,best cold brew coffee subscription,ABSENT,,
+gemini,how to make cold brew at home,ABSENT,,
+gemini,wholesale coffee for cafes downtown,ABSENT,,
